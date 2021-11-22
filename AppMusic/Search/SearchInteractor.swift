@@ -24,10 +24,8 @@ class SearchInteractor: SearchBusinessLogic {
         }
         
         switch request {
-        
-        case .some:
-            print(".some")
         case .getTracks(let searchText):
+            presenter?.presentData(response: .presentFooterView)
             netwokService.fetchTracks(searchText: searchText) { [weak self] searchResponse in
                 self?.presenter?.presentData(response: .presentTracks(searchResponse: searchResponse))
             }

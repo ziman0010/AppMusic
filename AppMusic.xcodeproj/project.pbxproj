@@ -28,6 +28,7 @@
 		9D82CD2B2708D88200E94CAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D82CD292708D88200E94CAF /* LaunchScreen.storyboard */; };
 		9D82CD332708D8B000E94CAF /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D82CD322708D8B000E94CAF /* MainTabBarController.swift */; };
 		9D82CD352708DCF400E94CAF /* SearchMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D82CD342708DCF400E94CAF /* SearchMusicViewController.swift */; };
+		9DEC8631272C41C30041E548 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC8630272C41C30041E548 /* FooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		9D82CD2C2708D88200E94CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D82CD322708D8B000E94CAF /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		9D82CD342708DCF400E94CAF /* SearchMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMusicViewController.swift; sourceTree = "<group>"; };
+		9DEC8630272C41C30041E548 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		A9E0B0527E0BCB31FF3B8675 /* Pods_AppMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -81,6 +83,7 @@
 		9D133B3C270F34F9005C7CF3 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				9DEC862F272C41B40041E548 /* FooterView */,
 				9D1AAAE32715B1D200276592 /* Cell */,
 				9D133B4C270F3589005C7CF3 /* SearchPresenter.swift */,
 				9D133B4D270F3589005C7CF3 /* SearchWorker.swift */,
@@ -162,6 +165,14 @@
 				9D133B4B270F3532005C7CF3 /* Services */,
 			);
 			path = AppMusic;
+			sourceTree = "<group>";
+		};
+		9DEC862F272C41B40041E548 /* FooterView */ = {
+			isa = PBXGroup;
+			children = (
+				9DEC8630272C41C30041E548 /* FooterView.swift */,
+			);
+			path = FooterView;
 			sourceTree = "<group>";
 		};
 		EE1F25F95F9B6AC93D6E5BE9 /* Pods */ = {
@@ -294,6 +305,7 @@
 				9D133B37270C2C10005C7CF3 /* SearchResponse.swift in Sources */,
 				9D133B5D270F3919005C7CF3 /* UIVIewController + Storyboard.swift in Sources */,
 				9D133B58270F3589005C7CF3 /* SearchInteractor.swift in Sources */,
+				9DEC8631272C41C30041E548 /* FooterView.swift in Sources */,
 				9D82CD1F2708D88200E94CAF /* AppDelegate.swift in Sources */,
 				9D82CD332708D8B000E94CAF /* MainTabBarController.swift in Sources */,
 				9D133B54270F3589005C7CF3 /* SearchWorker.swift in Sources */,
